@@ -159,35 +159,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### File Structure
-```
-height-weight-regression/
-├── 📁 data/
-│   └── height_weight.csv
-├── 📁 notebooks/
-│   └── height_weight_regression.ipynb
-├── 📁 src/
-│   ├── train_model.py
-│   └── predict.py
-├── requirements.txt
-├── README.md
-└── 📁 outputs/
-    ├── regression_plot.png
-    └── residuals_plot.png
-```
-
-### Quick Start
-```python
-# Train and evaluate the model
-python src/train_model.py
-
-# Make a prediction for a specific height
-python src/predict.py --height 170
-# Output: For height 170 cm, predicted weight: 68.3 kg
-```
-
----
-
 ## 🔍 Insights & Limitations  
 
 ### ✅ What the Model Captures Well
@@ -219,21 +190,6 @@ By completing this project, you'll understand:
 5. **Real-world limitations** of simple models
 
 ---
-
-## 📚 Resources for Deeper Learning  
-
-### Theoretical Background
-- [StatQuest: Linear Regression](https://www.youtube.com/watch?v=nk2CQITm_eo) - Visual explanation
-- [Khan Academy: Regression](https://www.khanacademy.org/math/statistics-probability) - Mathematical foundation
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/modules/linear_model.html) - Implementation details
-
-### Related Projects
-1. **Multiple Linear Regression:** House price prediction
-2. **Logistic Regression:** Classification problems
-3. **Regularized Regression:** Handling overfitting
-
----
-
 
 **⭐ If you found this helpful, consider starring the repository!**  
 
