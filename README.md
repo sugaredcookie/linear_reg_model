@@ -34,11 +34,11 @@ Where:
 
 The model finds the best values of m and b by minimizing the **SSE (Sum of Squared Errors):**
 
-SSE = Σ (y_actual - y_predicted)²
-To measure how well the model fits the data, we use the **R² score**:
+SSE = Σ (y_actual - y_predicted)²,
+ To measure how well the model fits the data, we use the **R² score**:
 
-R² = 1 - (SSE / SST)
-Where **SST** is the total variation in actual weight values.
+R² = 1 - (SSE / SST),
+ Where **SST** is the total variation in actual weight values.
 
 - ⭐ R² close to 1 → model explains most of the variation  
 - ⚠️ R² near 0 → model is barely better than guessing the mean  
